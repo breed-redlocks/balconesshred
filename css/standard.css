@@ -1,0 +1,15 @@
+/* Standard CSS - normalizing browser spacing and behavior */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
+	margin:  0px;
+	padding: 0px;
+}
+a img, a:link img, a:visited img, a:hover img, a:active img {
+	border: none;
+}
+a {
+	outline: none;
+}
+img, embed, object {
+	border: none;
+	vertical-align: bottom;
+}

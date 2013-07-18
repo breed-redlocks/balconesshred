@@ -1,0 +1,22 @@
+body {
+	background-image: url(/rsrc/common/stripe_b.gif);
+	background-repeat: repeat-x;
+}
+#cnt {
+	background-image: url(/rsrc/common/col_a.gif);
+	background-repeat: repeat-y;
+}
+#main {
+	width: 580px;
+	float: left;
+	padding: 35px 10px 0px 10px;
+}
+#feature {
+	margin-bottom: 10px;
+}
+#col1 {
+	width: 560px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+}

@@ -1,0 +1,84 @@
+BODY {
+	LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif; COLOR: #4d4d4d; FONT-SIZE: 12px
+}
+TD {
+	LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif; COLOR: #4d4d4d; FONT-SIZE: 12px
+}
+P {
+	LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif; COLOR: #4d4d4d; FONT-SIZE: 12px
+}
+P {
+	MARGIN-BOTTOM: 12px
+}
+P.intro {
+	LINE-HEIGHT: 24px; COLOR: #360f54; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.teammember P {
+	LINE-HEIGHT: 24px; TEXT-TRANSFORM: uppercase; MARGIN-BOTTOM: 0px; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.teammember P A {
+	COLOR: #360f54; TEXT-DECORATION: none
+}
+P.item {
+	BORDER-BOTTOM: #8eb825 1px solid; PADDING-BOTTOM: 10px
+}
+.homeitem {
+	BORDER-BOTTOM: #dddddd 1px solid; MARGIN-BOTTOM: 5px
+}
+P.current-item {
+	BORDER-BOTTOM: #8eb825 1px solid; PADDING-BOTTOM: 10px; COLOR: #dddddd
+}
+H1 {
+	LINE-HEIGHT: 28px; TEXT-TRANSFORM: uppercase; MARGIN-BOTTOM: 12px; COLOR: #360f54; FONT-SIZE: 24px; FONT-WEIGHT: normal
+}
+H2 {
+	TEXT-TRANSFORM: uppercase; MARGIN-BOTTOM: 2px; COLOR: #8eb825; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+H3 {
+	MARGIN-BOTTOM: 2px; COLOR: #8eb825; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+A {
+	COLOR: #8eb825
+}
+.item A.date {
+	TEXT-TRANSFORM: uppercase; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.homeitem A.date {
+	TEXT-TRANSFORM: uppercase; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.current-item A {
+	COLOR: #360f54
+}
+.current-item A.date {
+	TEXT-TRANSFORM: uppercase; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#wcol1 {
+	COLOR: #4d4d4d
+}
+#wcol1 H1 {
+	COLOR: #4d4d4d
+}
+#wcol1 P {
+	COLOR: #4d4d4d
+}
+#wcol2 {
+	COLOR: #4d4d4d
+}
+#wcol2 H1 {
+	COLOR: #4d4d4d
+}
+#wcol2 P {
+	COLOR: #4d4d4d
+}
+#side {
+	COLOR: #ffffff
+}
+#ftr {
+	LINE-HEIGHT: 12px; FONT-SIZE: 10px
+}
+#ftr A {
+	COLOR: #4d4d4d; TEXT-DECORATION: none
+}
+.nav#tertiary A {
+	COLOR: #4d4d4d; TEXT-DECORATION: none
+}

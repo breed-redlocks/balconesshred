@@ -1,0 +1,13 @@
+DirectoryIndex index.php
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.balconesshred.com$
+RewriteRule ^(.*)$ http://balconesshred.com/$1 [R=301,L]
+
+RewriteRule ^location/([^.]+.) /location.html?item=$1 [L]
+RewriteRule ^news/([^.]+.) /news.html?item=$1 [L]
+RewriteRule ^teammember/([^.]+.) /teammember.html?item=$1 [L]
+
+# EXECUTE PHPIN HTML FILES
+AddHandler x-httpd-php5-cgi .php .html

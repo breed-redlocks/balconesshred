@@ -1,0 +1,41 @@
+body {
+	background-image: url(/rsrc/common/stripe_a.gif);
+	background-repeat: repeat-x;
+}
+ul#slides {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	list-style: none;
+	width: 875px;
+	height: 300px;
+	overflow: hidden;
+}
+
+#cnt {
+	background-image: url(/rsrc/common/col_a.gif);
+	background-repeat: repeat-y;
+}
+#col1 {
+	width: 560px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	padding: 35px 10px 10px 10px;
+}
+
+.homeleft {
+	float: left;
+	width: 100px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.homeitem .date {
+	float: left;
+	width: 120px;
+}
+.homeitem .summary {
+	float: left;
+	width: 440px;
+	margin-bottom: 5px;
+}

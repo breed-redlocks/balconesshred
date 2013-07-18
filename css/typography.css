@@ -1,0 +1,102 @@
+body, td, p {
+	color: #4d4d4d;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+p {
+	margin-bottom: 12px;
+}
+p.intro {
+	color: #360f54;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: normal;
+}
+.teammember p {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.teammember p a {
+	color: #360f54;
+	text-decoration: none;
+}
+p.item {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #8eb825;
+}
+.homeitem {
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 5px;
+}
+p.current-item {
+	color: #dddddd;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #8eb825;
+}
+
+h1 {
+	color: #360f54;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+h2 {
+	color: #8eb825;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+h3 {
+	color: #8eb825;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+
+a {
+	color: #8eb825;
+}
+.item a.date, .homeitem a.date {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.current-item a {
+	color: #360f54;
+}
+.current-item a.date {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#wcol1, #wcol1 h1, #wcol1 p, #wcol2, #wcol2 h1, #wcol2 p {
+	color: #4d4d4d;
+}
+
+#side {
+	color: #ffffff;
+}
+
+#ftr {
+	font-size: 10px;
+	line-height: 12px;
+}
+#ftr a {
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+.nav#tertiary a {
+	text-decoration: none;
+	color: #4d4d4d;
+}

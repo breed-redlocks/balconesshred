@@ -1,0 +1,21 @@
+BODY {
+	BACKGROUND-IMAGE: url(/rsrc/common/stripe_a.gif); BACKGROUND-REPEAT: repeat-x
+}
+UL#slides {
+	LIST-STYLE-TYPE: none; WIDTH: 875px; MARGIN-BOTTOM: 10px; HEIGHT: 300px; MARGIN-LEFT: 10px; OVERFLOW: hidden; LIST-STYLE-IMAGE: none
+}
+#cnt {
+	BACKGROUND-IMAGE: url(/rsrc/common/col_a.gif); BACKGROUND-REPEAT: repeat-y
+}
+#col1 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 560px; PADDING-RIGHT: 10px; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; PADDING-TOP: 35px
+}
+.homeleft {
+	WIDTH: 100px; MARGIN-BOTTOM: 20px; FLOAT: left; MARGIN-RIGHT: 20px
+}
+.homeitem .date {
+	WIDTH: 120px; FLOAT: left
+}
+.homeitem .summary {
+	WIDTH: 440px; MARGIN-BOTTOM: 5px; FLOAT: left
+}

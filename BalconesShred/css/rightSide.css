@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cities a {
+	color: #475c12;
+	font-family: Arial, Helvetica, Genva, sans-serif;
+	font-size: 8px;
+	text-transform: uppercase;	
+	text-decoration:none;
+}
+
+.cities a:hover, cities a:visited{
+	color: #475c12;
+	font-size: 10px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+#side p { margin-bottom:0px !important; }
+.ask {
+	background-image:url(../images/faqs.gif);
+	width: 285px;
+	height: 100px;	
+	
+	}
+.whiteTxt{
+	color: #ffffff;
+	font-family: Verdana, Helvetica, Arial, Helvetica;
+	font-size: 12px;
+	padding-left:10px;
+	padding-top:40px;
+	
+}
+.bigTxt{
+	color: #222222;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	text-decoration:none;
+	padding-bottom:20px;
+}
+
+.Call {
+/*background-image:url(../images/callsouth.gif);*/
+	background-color:#8eb825;
+	width: 265px;
+	padding-top:7px;
+	padding-bottom:7px;
+	border-bottom:10px solid #fff;
+	padding-left:10px;	
+	padding-right:10px;
+	}
+.locations{
+	color: #ffffff;
+	font-family: Verdana, Helvetica, Arial, Helvetica;
+	font-size: 12px;
+	/*padding-left:10px;*/
+	text-transform: uppercase;
+		
+}
+.Call div {
+	margin-top:-4px;
+	line-height:normal;
+}
+.phoneNumber{
+	color: #222222;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	line-height:normal;
+	text-decoration:none;
+	
+}
+
+.espanol {
+/*background-image:url(../images/espanol.gif);*/
+	background-color:#8eb825;
+	width: 285px;
+	/*height: 50px;*/
+	border-bottom:10px solid #fff;
+	color: #222222;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	text-decoration:none;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+.quote-inq {
+	background-color:#8eb825;	
+	width:285px;
+}
+#quote {
+	padding:7px 10px 7px 10px;
+}
+#quote p {
+	padding-bottom:15px;
+}
+.Hespanol{
+	color: #222222;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	text-decoration:none;
+	padding-left:10px;
+	margin-top:20px;
+}

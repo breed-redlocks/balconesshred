@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /admin/
+
+Disallow: /cms/
+
+
+
+Sitemap: http://www.balconesshred.com/sitemap.xml 

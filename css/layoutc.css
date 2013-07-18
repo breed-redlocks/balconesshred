@@ -1,0 +1,35 @@
+body {
+	background-image: url(/rsrc/common/stripe_b.gif);
+	background-repeat: repeat-x;
+}
+#cnt {
+	background-image: url(/rsrc/common/col_a.gif);
+	background-repeat: repeat-y;
+}
+#col1 {
+	position: relative;
+	width: 265px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	padding: 35px 10px 10px 10px;
+}
+#col2 {
+	width: 265px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	padding: 35px 10px 10px 10px;
+}
+.teammember {
+	padding-top:    10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #8eb825;
+}
+.teammember p {
+	width: 200px;
+	float: left;
+}
+.teammember img {
+	float: right;
+}

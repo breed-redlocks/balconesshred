@@ -1,4 +1,7 @@
 ﻿<?php
+if (!defined('HIDEAAA')) {
+	define('HIDEAAA', false);
+}
 
 class Nav {
 	
@@ -493,10 +496,11 @@ class Nav {
 		$footer = "/rsrc/common/footer";
 		$theHTML .= "<div class=\"icons\"><iframe id ='thankyou' name='thankyou' width='0px' height='0px' src='wait.php' style='display:none;visibility:hidden'></iframe>\n";
 		// Hide NAID logo for austin, waco, san antonio,
-		if (isset($locations) && 
-			($locations->data[item] !== "austin-shred") && 
-			($locations->data[item] !== "san-antonio-shredding") && 
-			($locations->data[item] !== "waco-shredding")) {
+		if
+			(($_GET[item] !== "austin-shred") && 
+			($_GET[item] !== "san-antonio-shredding") && 
+			($_GET[item] !== "waco-shredding") &&
+			(HIDEAAA !== true)) {
 		
 			$theHTML .= "<img src=\"$footer/naidaaaseal.gif\">\n";
 		}

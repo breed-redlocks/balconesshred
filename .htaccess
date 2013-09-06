@@ -1,13 +1,12 @@
-DirectoryIndex index.php
-
-Options +FollowSymLinks
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.balconesshred.com$
-RewriteRule ^(.*)$ http://balconesshred.com/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} ^www.balconesshred.com$
+#RewriteRule ^(.*)$ http://balconesshred.com/$1 [R=301,L]
 
-RewriteRule ^location/([^.]+.) /location.html?item=$1 [L]
-RewriteRule ^news/([^.]+.) /news.html?item=$1 [L]
-RewriteRule ^teammember/([^.]+.) /teammember.html?item=$1 [L]
+RewriteRule ^location/([^.]+.) /location.php?item=$1 [L]
+RewriteRule ^news/([^.]+.) /news.php?item=$1 [L]
+RewriteRule ^teammember/([^.]+.) /teammember.php?item=$1 [L]
+
+RewriteRule ^(.*).html?$ $1.php [L]
 
 # EXECUTE PHPIN HTML FILES
 AddHandler php-script .php 

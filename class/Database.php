@@ -14,9 +14,9 @@ class Database {
 		$this->version = $this->getVersion();
 		
 		$this->dbhost = "localhost";
-		$this->dbuser = "bsmaindb";
-		$this->dbpass = "Strat2012!";
-		$this->dbname = "bsmaindb";
+		$this->dbuser = "balconesshred";
+		$this->dbpass = "V9N3zV6hVb5D";
+		$this->dbname = "balconesshred";
 		
 		/*
 		$this->dbhost = "localhost";

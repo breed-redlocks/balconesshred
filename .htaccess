@@ -6,6 +6,7 @@ RewriteRule ^location/([^.]+.) /location.php?item=$1 [L]
 RewriteRule ^news/([^.]+.) /news.php?item=$1 [L]
 RewriteRule ^teammember/([^.]+.) /teammember.php?item=$1 [L]
 
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*).html?$ $1.php [L]
 
 # EXECUTE PHPIN HTML FILES
